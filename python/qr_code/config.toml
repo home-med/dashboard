@@ -1,0 +1,14 @@
+VERSION="1.0.0"
+LAST_UPDATED="03/09/2023"
+
+[INFO]
+locations=['bhm', 'lms']
+
+    [INFO.IMAGES]
+    # img_base_folder must end in a slash and is relative to the current directory.
+    img_folder="imgs/"
+
+    # the image names need to match what is in location. So adding a new image here 
+    # the name should also be added to the locations above.
+    bhm="bhm_logo.png"
+    lms="lms_logo.png"
